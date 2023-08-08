@@ -36,10 +36,10 @@ export default function Cadastro() {
         <div className="container mx-auto bg-white">
 
         <div className="grid justify-items-center h-80`">
-        <Image alt="" className="w-full max-w-xs mx-auto" src='https://i.kym-cdn.com/news/posts/original/000/002/303/cover5.jpg'/>
+        <Image alt="asdasd" className="w-full max-w-xs mx-auto" src='https://i.kym-cdn.com/news/posts/original/000/002/303/cover5.jpg'/>
         </div>
 
-        <h1 className="bg-red-500 text-white font-bold font-mono text-5xl p-10 text-center mt-14">FREDDY FAZBEAR'S PIZZARIA</h1>
+        <h1 className="bg-red-500 text-white font-bold font-mono text-5xl p-10 text-center mt-14">FREDDY FAZBEARS PIZZARIA</h1>
 
         
         <nav className="flex justify-center bg-red-800">
