@@ -3,6 +3,7 @@ import { useState } from 'react'
 import styles from '../page.module.css'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link';
+import Image from 'next/image'
 
 export default function Cadastro() {
     const route = useRouter();
@@ -35,7 +36,7 @@ export default function Cadastro() {
         <div className="container mx-auto bg-white">
 
         <div className="grid justify-items-center h-80`">
-        <img className="w-full max-w-xs mx-auto" src='https://i.kym-cdn.com/news/posts/original/000/002/303/cover5.jpg'></img>
+        <Image className="w-full max-w-xs mx-auto" src='https://i.kym-cdn.com/news/posts/original/000/002/303/cover5.jpg'/>
         </div>
 
         <h1 className="bg-red-500 text-white font-bold font-mono text-5xl p-10 text-center mt-14">FREDDY FAZBEAR'S PIZZARIA</h1>
