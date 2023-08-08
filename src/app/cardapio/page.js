@@ -35,7 +35,7 @@ export default async function Cardapio() {
         <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 mt-4 max-w-screen-2xl shadow-lg">
         {produtos.map(produtos => (
         <div className="border p-4  shadow-xl rounded mb-10" key={produtos.id}>
-          <Image className="w-full h-auto mb-4" src={produtos.imagem}/>
+          <Image alt="" className="w-full h-auto mb-4" src={produtos.imagem}/>
           <p className="font-semibold font-mono text-center text-3xl mt-3">{produtos.id}: {produtos.titulo}</p>
           <p className="h-20 font-mono text-center text-1xl m-5">{produtos.descricao}</p>
           <div className="flex justify-between mt-4">
